@@ -6,7 +6,7 @@ Nur HTML/CSS/JavaScript, du musst nichts installieren.
 
  Starten
 
-hsk1website-j2kr1d0yo-melvin-3831.vercel.app (NUR PREVIEW HIER IST KEINE SPEICHERUNG MÖGLICH)
+<http://hsk1website-j2kr1d0yo-melvin-3831.vercel.app> (NUR PREVIEW HIER IST KEINE SPEICHERUNG MÖGLICH)
 
 **Doppelklick auf `start.bat`**: Das startet den Server auf <http://localhost:8000> und öffnet den Browser.
 Zum Beenden das Fenster schließen oder `Strg+C` drücken.
