@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HSK 1 Chinese</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#/"><span class="brand-mark">汉</span> HSK 1</a>
+    <nav class="nav">
+      <a href="#/" data-i18n="nav.home">Start</a>
+      <a href="#/study" data-i18n="nav.study">Lernen</a>
+      <a href="#/pinyin" data-i18n="nav.pinyin">Pinyin</a>
+      <a href="#/lessons" data-i18n="nav.lessons">Lektionen</a>
+      <a href="#/vocab" data-i18n="nav.vocab">Vokabeln</a>
+      <a href="#/quiz" data-i18n="nav.quiz">Quiz</a>
+      <a href="#/write" data-i18n="nav.write">Schreiben</a>
+      <a href="#/stats" data-i18n="nav.stats">Statistik</a>
+      <a href="#/settings" data-i18n="nav.settings">Einstellungen</a>
+    </nav>
+    <span id="saveStatus" class="save-status" role="status"></span>
+  </header>
+
+  <main id="app" class="container"></main>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <footer class="footer container" data-i18n="footer.text"></footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/i18n.js"></script>
+  <script src="js/store.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
